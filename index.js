@@ -18,8 +18,7 @@ var defaults = {
   viewportUnit: 'vw',
   selectorBlackList: ['.ignore'],
   minPixelValue: 1,
-  mediaQuery: false,
-  exclude: /(\/|\\)(node_modules)(\/|\\)/
+  mediaQuery: false
 };
 
 module.exports = postcss.plugin('postcss-px-to-viewport', function(options) {

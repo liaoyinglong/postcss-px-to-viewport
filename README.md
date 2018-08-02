@@ -102,7 +102,6 @@ Default:
   selectorBlackList: ['.ignore'],
   minPixelValue: 1,
   mediaQuery: false,
-  exclude:/(\/|\\)(node_modules)(\/|\\)/,
 }
 ```
 
@@ -117,7 +116,7 @@ Default:
     - `[/^body$/]` 将会匹配 `body` 并不是 `.body`
 - `minPixelValue` (Number) 小于或等于`1px`不转换为视窗单位，你也可以设置为你想要的值。
 - `mediaQuery` (Boolean) 允许在媒体查询中转换`px`
-- `exclude` (RegExp) 排除路径不参与转换
+- `exclude` (RegExp) 排除路径不参与转换 eg:`/(\/|\\)(node_modules)(\/|\\)/`
 
 ### Use with gulp-postcss
 
