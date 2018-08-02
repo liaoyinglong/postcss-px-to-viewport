@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-$ npm i @lyl/postcss-px-to-viewport -D
+$ npm i @liaoyinglong/postcss-px-to-viewport -D
 ```
 
 ## Usage
